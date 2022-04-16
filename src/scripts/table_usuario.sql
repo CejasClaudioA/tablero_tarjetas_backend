@@ -1,3 +1,5 @@
+CREATE DATABASE tablero_tarjetas;
+
 CREATE TABLE usuario(
     idusuario SERIAL PRIMARY KEY,
     nombre varchar(30) NOT NULL,
